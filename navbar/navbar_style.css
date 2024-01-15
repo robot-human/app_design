@@ -1,11 +1,122 @@
-body{
-	padding: 0px;
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+:root {
+	--main-color:#0cce0c;
+  	--main-bg-color: #252527;
+  	--main-text-color: #fff;
+  	--secondary-color:#0cce0c;
+  	--secondary-bg-color: #252527;
+  	--secondary-text-color: #fff;
 }
-.topnav-container{
-	position: fixed;
-  	left: 0px;
-  	top:0px;
-  	width: 100%;
-  	padding: 20px;
-	background-color: #54504f;
+*{
+	font-family: 'Montserrat', sans-serif;
+	font-size:18px;
+	box-sizing:border-box;
+	margin:0px;
+	padding:0px;
+}
+body{
+	background-color:var(--main-bg-color);
+}
+header{
+	background-color:var(--main-bg-color);
+	display:flex;
+	justify-content:space-between;
+	align-items:center;
+	border-bottom:1px solid white;
+}
+header .logo img{
+	height:60px;
+	width:auto;
+}
+ul{
+	list-style-type: none;
+	text-decoration: none;
+}
+a{
+	text-decoration: none;
+	color:var(--main-text-color);
+}
+
+header .navigation li{
+	display:inline-block;
+	padding:0px 20px;
+}
+.buttons{
+	display:inline;
+}
+.signup-button {
+  	background-color: var(--main-color);
+  	border: none;
+  	color: white;
+  	padding: 10px 20px;
+  	text-align: center;
+  	text-decoration: none;
+  	display: inline-block;
+  	margin: 4px 2px;
+  	cursor: pointer;
+  	border-radius: 16px;
+}
+.signup-button:hover {
+  	background-color: #279f27;
+  	border: none;
+  	color: white;
+  	padding: 10px 20px;
+  	text-align: center;
+  	text-decoration: none;
+  	display: inline-block;
+  	margin: 4px 2px;
+  	cursor: pointer;
+  	border-radius: 16px;
+}
+
+.signup-button:active {
+  	background-color: var(--main-color);
+  	border: none;
+  	color: white;
+  	padding: 10px 20px;
+  	text-align: center;
+  	text-decoration: none;
+  	display: inline-block;
+  	margin: 4px 2px;
+  	cursor: pointer;
+  	border-radius: 16px;
+}
+
+.login-button {
+  	background-color: var(--main-bg-color);
+  	border: none;
+  	color: var(--main-color);
+  	padding: 10px 20px;
+  	text-align: center;
+  	text-decoration: none;
+  	display: inline-block;
+  	margin: 2px 2px;
+  	cursor: pointer;
+  	border-radius: 16px;
+}
+
+.login-button:hover {
+  	background-color: #5a5b5a;
+  	border: none;
+  	color: var(--main-color);
+  	padding: 10px 20px;
+  	text-align: center;
+  	text-decoration: none;
+  	display: inline-block;
+  	margin: 2px 2px;
+  	cursor: pointer;
+  	border-radius: 16px;
+}
+
+.login-button:active {
+  	background-color: #468f46;
+  	border: none;
+  	color: var(--main-color);
+  	padding: 10px 20px;
+  	text-align: center;
+  	text-decoration: none;
+  	display: inline-block;
+  	margin: 2px 2px;
+  	cursor: pointer;
+  	border-radius: 16px;
 }
