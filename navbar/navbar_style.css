@@ -9,7 +9,7 @@
 }
 *{
 	font-family: 'Montserrat', sans-serif;
-	font-size:18px;
+	font-size:14px;
 	box-sizing:border-box;
 	margin:0px;
 	padding:0px;
@@ -22,7 +22,8 @@ header{
 	display:flex;
 	justify-content:space-between;
 	align-items:center;
-	border-bottom:1px solid white;
+	border-bottom:1px solid #747574;
+	padding: 10px 10%;
 }
 header .logo img{
 	height:60px;
@@ -36,7 +37,12 @@ a{
 	text-decoration: none;
 	color:var(--main-text-color);
 }
-
+span{
+	text-decoration: none;
+	color:var(--main-text-color);
+	display:flex;
+	padding:0px 0px;
+}
 header .navigation li{
 	display:inline-block;
 	padding:0px 20px;
@@ -54,7 +60,8 @@ header .navigation li{
   	display: inline-block;
   	margin: 4px 2px;
   	cursor: pointer;
-  	border-radius: 16px;
+  	border-radius: 20px;
+  	font-weight: bold;
 }
 .signup-button:hover {
   	background-color: #279f27;
@@ -66,7 +73,7 @@ header .navigation li{
   	display: inline-block;
   	margin: 4px 2px;
   	cursor: pointer;
-  	border-radius: 16px;
+  	border-radius: 20px;
 }
 
 .signup-button:active {
@@ -79,44 +86,44 @@ header .navigation li{
   	display: inline-block;
   	margin: 4px 2px;
   	cursor: pointer;
-  	border-radius: 16px;
+  	border-radius: 20px;
 }
 
 .login-button {
   	background-color: var(--main-bg-color);
   	border: none;
   	color: var(--main-color);
-  	padding: 10px 20px;
+  	padding: 10px 10px;
   	text-align: center;
   	text-decoration: none;
   	display: inline-block;
   	margin: 2px 2px;
   	cursor: pointer;
-  	border-radius: 16px;
+  	border-radius: 20px;
 }
 
 .login-button:hover {
   	background-color: #5a5b5a;
   	border: none;
   	color: var(--main-color);
-  	padding: 10px 20px;
+  	padding: 10px 10px;
   	text-align: center;
   	text-decoration: none;
   	display: inline-block;
   	margin: 2px 2px;
   	cursor: pointer;
-  	border-radius: 16px;
+  	border-radius: 20px;
 }
 
 .login-button:active {
   	background-color: #468f46;
   	border: none;
   	color: var(--main-color);
-  	padding: 10px 20px;
+  	padding: 10px 10px;
   	text-align: center;
   	text-decoration: none;
   	display: inline-block;
   	margin: 2px 2px;
   	cursor: pointer;
-  	border-radius: 16px;
+  	border-radius: 20px;
 }
